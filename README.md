@@ -58,3 +58,19 @@ This project shows an example of the product of cloud-based machine learning pip
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/postman.png?raw=true)
 
 
+## Future Improvements
+- Use deep learning features when building models
+- Use feature engineering to improve training data
+- Use more data!
+
+
+## Screencast 
+Link to screencast of the project: https://vimeo.com/666540506
+</br>
+Screencast includes a demonstration of:
+-  AutoML model creation
+-  Deploy best model
+-  Consume best model
+-  Pipleine creation
+-  Query with Postman
+-  
