@@ -73,4 +73,4 @@ Screencast includes a demonstration of:
 -  Consume best model
 -  Pipleine creation
 -  Query with Postman
--  
+
