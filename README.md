@@ -9,7 +9,7 @@ This project shows an example of the product of cloud-based machine learning pip
 
 ## Required Screenshots
 
-AutoML run
+### AutoML run
 - "Registed Datasets" in ML studio
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/dataset.png?raw=true)
 
@@ -20,15 +20,41 @@ AutoML run
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/best_model.png?raw=true)
 
 
-Enable Logging
+### Enable Logging
 - "Application Insights" is enabled
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/application_endpoint_true.png?raw=true)
 
+- Log.py script is running
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/logs.png?raw=true)
 
-![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/dataset.png?raw=true)
-![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/dataset.png?raw=true)
-![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/dataset.png?raw=true)
-![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/dataset.png?raw=true)
-![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/dataset.png?raw=true)
-![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/dataset.png?raw=true)
-![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/dataset.png?raw=true)
+### Swagger Doccumentation
+- Swagger runs on local host showing API methods
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/swagger.png?raw=true)
+
+### Consume Model Endpoints
+- endpoint.py script runs
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/endpoint.png?raw=true)
+
+### Pipeline 
+- Pipeline has been created
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/pipeline.png?raw=true)
+
+- Pipeline endpoints
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/pipeline_endpoint.png?raw=true)
+
+- Bank dataset with the AutoML module
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/automl.png?raw=true)
+
+- "Published Pipeline Overview," showing REST endpoint is active
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/active_rest_endpoint.png?raw=true)
+
+- Jupyter Notebook, using RunDetails Widget
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/run_details_widget.png?raw=true)
+
+- ML Studio showing run
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/endpoints.png?raw=true)
+
+- Using Postman to query the endpoint
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/postman.png?raw=true)
+
+
