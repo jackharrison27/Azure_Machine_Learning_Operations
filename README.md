@@ -43,7 +43,7 @@ This project shows an example of the product of cloud-based machine learning pip
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/pipeline_endpoint.png?raw=true)
 
 - Bank dataset with the AutoML module
-![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/automl.png?raw=true)
+![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/graph.png?raw=true)
 
 - "Published Pipeline Overview," showing REST endpoint is active
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/active_rest_endpoint.png?raw=true)
