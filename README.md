@@ -23,7 +23,7 @@ For this project, an AutoML run was completed on bank marketing dataset. The bes
 
 
 ### Enable Logging
-After deployment, we turned on the "Application Insights" within the Azure Container Instance. This was done through the logs.py scriptsince "Application Insights" is disabled by defult.   
+After deployment, we turned on the "Application Insights" within the Azure Container Instance. This was done through the logs.py script since "Application Insights" is disabled by defult.   
 - "Application Insights" is enabled
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/application_endpoint_true.png?raw=true)
 
@@ -31,14 +31,17 @@ After deployment, we turned on the "Application Insights" within the Azure Conta
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/logs.png?raw=true)
 
 ### Swagger Doccumentation
+We used Swagger to view the contents of the model and see what API methods are available. This allows users to view how to consume the model enpoint with HTTP request methods. In this case, we deployed the Swagger page on a localhost port. 
 - Swagger runs on local host showing API methods
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/swagger.png?raw=true)
 
 ### Consume Model Endpoints
+The model was then tested using sample JSON requests. In this case, endpoints.py was used to test the outputs of our model and the success of our API methods. 
 - endpoint.py script runs
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/endpoint.png?raw=true)
 
 ### Pipeline 
+For this part of the project, we created a pipeline through a jupyter notebook. After using a config.json file to authenticate the notebook automatically, we fed the data to another AutoML run with specific parameters as set by the notebook. The best model was then selected and deploys it. We confirmed the endpoint was created by checking the pipeline overview and that the endpoint has a status of "Active." Finally we queried the pipeline endpoint using Postman to confirm its successful deployment. 
 - Pipeline has been created
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/pipeline.png?raw=true)
 
