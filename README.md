@@ -11,6 +11,7 @@ In this project, we use Azure and Azure ML studio to create cloud-based ML pipel
 ## Required Screenshots
 
 ### AutoML run
+For this project, an AutoML run was completed on bank marketing dataset. The best model, a Voting Ensemble, was selected to be deployed. 
 - "Registed Datasets" in ML studio
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/dataset.png?raw=true)
 
