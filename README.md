@@ -23,6 +23,7 @@ For this project, an AutoML run was completed on bank marketing dataset. The bes
 
 
 ### Enable Logging
+After deployment, we turned on the "Application Insights" within the Azure Container Instance. This was done through the logs.py scriptsince "Application Insights" is disabled by defult.   
 - "Application Insights" is enabled
 ![alt text](https://github.com/jackharrison27/Azure_Machine_Learning_Operations/blob/master/screenshots/application_endpoint_true.png?raw=true)
 
